@@ -1,0 +1,97 @@
+.widget-features-carousel-light-v1 .swiper-features-carousel-light {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding-top: 5px;
+    color: #17212b
+}
+
+.widget-features-carousel-light-v1 .swiper-features-carousel-light .swiper-slide {
+    height: 100%
+}
+
+.widget-features-carousel-light-v1 .strategy-box {
+    position: relative;
+    height: 100%;
+    min-height: 375px;
+    -webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, .1));
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, .1));
+    padding: 40px
+}
+
+.widget-features-carousel-light-v1 .strategy-box::after {
+    content: "";
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    -webkit-clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px);
+    clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px);
+    z-index: -1
+}
+
+.widget-features-carousel-light-v1 .strategy-box .circle-icon {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 55px
+}
+
+.widget-features-carousel-light-v1 .strategy-box .text-24 {
+    margin-bottom: 16px;
+    max-width: 250px;
+    font-size: 23px
+}
+
+.widget-features-carousel-light-v1 .strategy-box a {
+    color: #004bce
+}
+
+.widget-features-carousel-light-v1 .strategy-box-alt {
+    padding: 30px;
+    height: 100%
+}
+
+.widget-features-carousel-light-v1 .strategy-box-alt .circle-icon {
+    width: 72px;
+    height: 72px
+}
+
+.widget-features-carousel-light-v1 .strategy-box-alt p {
+    margin-bottom: 0;
+    font-size: 16px
+}
+
+.widget-features-carousel-light-v1 .w720 {
+    width: 720px
+}
+
+@media only screen and (max-width:1024px) {
+    .widget-transparency-committee .w720 {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .widget-strategy-v1 .arrow-nav-wrap-custom {
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .widget-strategy-v1 .swiper-features-carousel-light {
+        padding-right: 0
+    }
+
+    .widget-strategy-v1 .swiper-features-carousel-light {
+        width: auto !important
+    }
+
+    .widget-strategy-v1 .swiper-features-carousel-light .swiper-slide {
+        width: auto
+    }
+}
+
+/*# sourceMappingURL=../maps/features-carousel-light/features-carousel-light.css.map */
